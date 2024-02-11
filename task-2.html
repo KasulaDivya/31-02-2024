@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .divs{
+        width:350px;
+        height: 400px;
+        border: 3px solid black;
+    }
+    .imgg{
+        width:350px;
+        height:200px;
+    }
+</style>
+<body>
+    <div>
+
+    </div>
+</body>
+<script>
+
+    var a=document.createElement("div")
+document.body.appendChild(a);
+a.setAttribute("class","divs")
+var imgg=document.createElement("img")
+// document.body.appendChild(imgg)
+a.appendChild(imgg);
+imgg.setAttribute("src","../crud/vits.png");
+imgg.setAttribute("class","imgg")
+var bk=document.createElement("br");
+a.appendChild(bk)
+var mh=document.createElement("h4")
+a.appendChild(mh)
+mh.innerText=b[0]["title"]
+    
+
+</script>
+
+</html>
